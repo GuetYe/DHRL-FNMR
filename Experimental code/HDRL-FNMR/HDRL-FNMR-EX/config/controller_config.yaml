@@ -1,0 +1,19 @@
+name: intrinsic
+
+state_channels: 5
+action_nums: 7  # max out degree
+
+batch_size: 16
+lr: 1e-5
+reward_decay: 0.9
+tau: 1
+update_refquency: 10
+
+use_per: True
+memory_capacity: 512
+
+# e-greedy
+use_decay_e_greedy: True
+start: 1
+end: 0.001
+decay: 400

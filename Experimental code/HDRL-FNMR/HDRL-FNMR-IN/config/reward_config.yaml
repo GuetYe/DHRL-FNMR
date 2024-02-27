@@ -1,0 +1,19 @@
+# done_reward, step_reward, hell_reward 
+rewards:
+  - &done_reward 1.0
+  - &step_reward 0.1
+  - -0.5  # knock wall reward
+  - -0.1  # subgoal dead reward
+  - -0.5  # back road reward
+  - -0.01  # step cost, not to use
+
+beta1: 1
+beta2: 1
+beta3: 1
+
+# normalizaion a to b
+upper_step: *step_reward
+lower_step: 0
+
+upper_path: *done_reward
+lower_path: 0

@@ -1,0 +1,30 @@
+conv1: 
+  # in_channels: state_channel
+  out_channels: 128
+  kernel_size: 
+    - 3
+    - 3
+  stride: 1
+  padding: 0
+
+conv2: 
+  in_channels: 128
+  out_channels: 256
+  kernel_size: 
+    - 3
+    - 3
+  stride: 1
+  padding: 0
+
+conv3: 
+  in_channels: 256
+  out_channels: 128
+  kernel_size: 
+    - 3
+    - 3
+  stride: 1
+  padding: 0
+
+fc1:
+  in_channels: 8192
+  # out_channels: action_num

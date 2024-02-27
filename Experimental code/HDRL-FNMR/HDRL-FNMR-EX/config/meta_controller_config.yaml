@@ -1,0 +1,19 @@
+name: extrinsic
+
+state_channels: 4
+action_nums: 14
+
+batch_size: 16
+lr: 1e-4
+reward_decay: 0.9
+tau: 1
+update_refquency: 10
+
+use_per: True
+memory_capacity: 256
+
+# e-greedy
+use_decay_e_greedy: True
+start: 1
+end: 0.001
+decay: 400 

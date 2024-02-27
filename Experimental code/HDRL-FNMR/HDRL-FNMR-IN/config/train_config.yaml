@@ -1,0 +1,37 @@
+pkl_step: 3
+pkl_num: 1
+pkl_start: 0
+
+start_node: 12
+end_nodes: 
+  # - 2
+  - 4
+  # - 11
+
+episodes: 3000
+
+in_policy_weight_file: ./saved_agents/control-[20230322151712]_pkl12/policy_net-control-[20230322151712]_pkl12.pt
+ex_policy_weight_file: ./saved_agents/meta-[20230322151712]_pkl12/policy_net-meta-[20230322151712]_pkl12.pt
+
+# hqdn controller parameters config file path
+meta_controller_config: ./config/meta_controller_config.yaml
+meta_controller_model_config: ./config/meta_model_config.yaml
+
+controller_config: ./config/controller_config.yaml
+controller_model_config: ./config/controller_model_config.yaml
+
+# env config file path
+config_file: ./config/env_config.yaml
+reward_config_file: ./config/reward_config.yaml
+
+# data pickle file path
+pkl_weight_path: ./dataset
+
+data_save_path: ./data
+image_save_path: ./images
+
+random_seed: 1
+
+mode: train
+
+paint_intrinsic_state: False

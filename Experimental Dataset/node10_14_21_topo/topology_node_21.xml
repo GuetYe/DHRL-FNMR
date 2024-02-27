@@ -1,0 +1,227 @@
+<root>
+  <topology>
+    <nodes>
+      <node id="1">
+          <locationap coordinate="90,150,0"/>
+          <locationsta coordinate="90,160,0"/>
+      </node>
+      <node id="2">
+          <locationap coordinate="30,120,0"/>
+          <locationsta coordinate="30,130,0"/>
+      </node>
+      <node id="3">
+          <locationap coordinate="60,150,0"/>
+          <locationsta coordinate="60,160,0"/>
+      </node>
+      <node id="4">
+          <locationap coordinate="90,120,0"/>
+          <locationsta coordinate="90,110,0"/>
+      </node>
+      <node id="5">
+          <locationap coordinate="120,120,0"/>
+          <locationsta coordinate="120,110,0"/>
+      </node>
+      <node id="6">
+          <locationap coordinate="60,120,0"/>
+          <locationsta coordinate="60,110,0"/>
+      </node>
+      <node id="7">
+          <locationap coordinate="160,120,0"/>
+          <locationsta coordinate="160,110,0"/>
+      </node>
+      <node id="8">
+          <locationap coordinate="160,60,0"/>
+          <locationsta coordinate="160,50,0"/>
+      </node>
+      <node id="9">
+          <locationap coordinate="110,150,0"/>
+          <locationsta coordinate="110,160,0"/>
+      </node>
+      <node id="10">
+          <locationap coordinate="140,150,0"/>
+          <locationsta coordinate="140,160,0"/>
+      </node>
+      <node id="11">
+          <locationap coordinate="60,30,0"/>
+          <locationsta coordinate="60,20,0"/>
+      </node>
+      <node id="12">
+          <locationap coordinate="110,30,0"/>
+          <locationsta coordinate="110,20,0"/>
+      </node>
+      <node id="13">
+          <locationap coordinate="90,30,0"/>
+          <locationsta coordinate="90,20,0"/>
+      </node>
+      <node id="14">
+          <locationap coordinate="160,30,0"/>
+          <locationsta coordinate="160,20,0"/>
+      </node>
+      <node id="15">
+          <locationap coordinate="190,90,0"/>
+          <locationsta coordinate="190,80,0"/>
+      </node>
+      <node id="16">
+          <locationap coordinate="160,150,0"/>
+          <locationsta coordinate="160,160,0"/>
+      </node>
+      <node id="17">
+          <locationap coordinate="190,30,0"/>
+          <locationsta coordinate="190,20,0"/>
+      </node>
+      <node id="18">
+          <locationap coordinate="190,150,0"/>
+          <locationsta coordinate="190,160,0"/>
+      </node>
+      <node id="19">
+          <locationap coordinate="210,60,0"/>
+          <locationsta coordinate="210,50,0"/>
+      </node>
+      <node id="20">
+          <locationap coordinate="210,120,0"/>
+          <locationsta coordinate="210,130,0"/>
+      </node>
+      <node id="21">
+          <locationap coordinate="240,90,0"/>
+          <locationsta coordinate="240,100,0"/>
+      </node>
+    </nodes>
+
+    <links>
+
+      <link id="1_3">
+        <from if="0" node="1"/>
+        <to if="0" node="3"/>
+      </link>
+      <link id="1_4">
+        <from if="0" node="1"/>
+        <to if="0" node="4"/>
+      </link>
+      <link id="1_5">
+        <from if="0" node="1"/>
+        <to if="0" node="5"/>
+      </link>
+      <link id="1_9">
+        <from if="0" node="1"/>
+        <to if="0" node="9"/>
+      </link>
+
+      <link id="2_3">
+        <from if="0" node="2"/>
+        <to if="0" node="3"/>
+      </link>
+      <link id="2_6">
+        <from if="0" node="2"/>
+        <to if="0" node="6"/>
+      </link>
+      <link id="2_11">
+        <from if="0" node="2"/>
+        <to if="0" node="11"/>
+      </link>
+
+      <link id="4_6">
+        <from if="0" node="4"/>
+        <to if="0" node="6"/>
+      </link>
+      <link id="4_13">
+        <from if="0" node="4"/>
+        <to if="0" node="13"/>
+      </link>
+      
+      <link id="5_7">
+        <from if="0" node="5"/>
+        <to if="0" node="7"/>
+      </link>
+      <link id="5_8">
+        <from if="0" node="5"/>
+        <to if="0" node="8"/>
+      </link>
+
+      <link id="7_8">
+        <from if="0" node="7"/>
+        <to if="0" node="8"/>
+      </link>
+      <link id="7_15">
+        <from if="0" node="7"/>
+        <to if="0" node="15"/>
+      </link>
+      <link id="7_16">
+        <from if="0" node="7"/>
+        <to if="0" node="16"/>
+      </link>
+      
+      <link id="8_14">
+        <from if="0" node="8"/>
+        <to if="0" node="14"/>
+      </link>
+      <link id="8_15">
+        <from if="0" node="8"/>
+        <to if="0" node="15"/>
+      </link>
+      
+      <link id="9_10">
+        <from if="0" node="9"/>
+        <to if="0" node="10"/>
+      </link>
+
+      <link id="10_16">
+        <from if="0" node="10"/>
+        <to if="0" node="16"/>
+      </link>
+
+      <link id="11_13">
+        <from if="0" node="11"/>
+        <to if="0" node="13"/>
+      </link>
+
+      <link id="12_13">
+        <from if="0" node="12"/>
+        <to if="0" node="13"/>
+      </link>
+      <link id="12_14">
+        <from if="0" node="12"/>
+        <to if="0" node="14"/>
+      </link>
+
+      <link id="14_17">
+        <from if="0" node="14"/>
+        <to if="0" node="17"/>
+      </link>
+
+      <link id="15_19">
+        <from if="0" node="15"/>
+        <to if="0" node="19"/>
+      </link>
+      <link id="15_20">
+        <from if="0" node="15"/>
+        <to if="0" node="20"/>
+      </link>
+
+      <link id="16_18">
+        <from if="0" node="16"/>
+        <to if="0" node="18"/>
+      </link>
+
+      <link id="17_19">
+        <from if="0" node="17"/>
+        <to if="0" node="19"/>
+      </link>
+
+      <link id="18_20">
+        <from if="0" node="18"/>
+        <to if="0" node="20"/>
+      </link>
+
+      <link id="19_21">
+        <from if="0" node="19"/>
+        <to if="0" node="21"/>
+      </link>
+
+      <link id="20_21">
+        <from if="0" node="20"/>
+        <to if="0" node="21"/>
+      </link>
+      
+    </links>
+  </topology>
+</root>

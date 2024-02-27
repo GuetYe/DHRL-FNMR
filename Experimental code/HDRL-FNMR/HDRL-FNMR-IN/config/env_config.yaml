@@ -1,0 +1,21 @@
+# symbol
+source_symbol: 1
+end_symbol: -1
+tree_symbol: 2
+branch_symbol: 3
+blank_symbol: 0
+
+subgoal_symbol: 4
+
+# flag
+done_flag: all_done
+part_flag: part_done
+step_flag: step_go_on
+knock_flag: knock_wall
+back_flag: road_back
+
+# threshold
+turn_on_threshold: False
+
+rollback_threshold: 2
+state_queue_maxlen: 3
